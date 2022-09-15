@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *print_sign(Int c) in main.h
- *input is Int c
- *Return 1 and print + n > 0
- *Return -1 and print - n < 1
- *Return 0 and print 0 n == 0
+ * print_sign - Check main.h
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
 */
-int print_sign(int c)
+int print_sign(int n)
 {
 	int value;
 	
@@ -29,3 +29,4 @@ int print_sign(int c)
 	}
 	
 	return (value);
+}

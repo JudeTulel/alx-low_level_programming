@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_abs(Int r) in main.h
- *r is input
- * to Return abs val of r >= 0 Return(r)
- * to Return abs val of r<0 Return(r*-1)
+ *_abs - Chenck main.h
+ * @r: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: Absolut value of number r
 */
 int _abs(int r)
 {

@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ *print_alphabet_x10 - Check main.h
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: 0
  */
-int main(void)
+int print_alphabet_x10(void)
 {
 	char i;
 	int j;

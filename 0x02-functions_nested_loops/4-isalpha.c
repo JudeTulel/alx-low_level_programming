@@ -1,10 +1,11 @@
-;#include "main.h"
+#include "main.h"
 
 /**
- *_isalpha in main.h
- *c is the input var
- *Return 1 If letter upper or lowercase
- *Else Return 0
+ * _isalpha - Check main.h
+ * @c: An input character
+ * Description: function returns 1 if the character is a
+ * letter, lowercase or uppercase.
+ * Return: 1 or 0 in otherwise.
 */
 int _isalpha(int c)
 {
@@ -19,4 +20,5 @@ int _isalpha(int c)
 				letter = 1
 		}
 	}
-	return (letter)
+	return (letter);
+}
